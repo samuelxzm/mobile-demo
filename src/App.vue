@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-    <svg-icon icon-class="kk" style="width:60px;" />
-    <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
   </div>
 </template>
